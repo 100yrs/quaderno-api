@@ -80,7 +80,7 @@ curl https://ACCOUNT_NAME.quadernoapp.com/api/invoices \
 
 Parameter               | Type              | Description
 ------------------------|-------------------|--------------------------------------------------------------------------------
-`number`                | string            | A unique, sequential code that identifies the invoice. Legally, an invoice number sequence should never contain repeats or gaps. Automatic numbering is used by default.
+`number`                | string            | A unique, sequential code that identifies the invoice. Legally, an invoice number sequence should never contain repeats or gaps. **Automatic numbering is used by default. Manual numbering is discouraged.**
 `issue_date`            | date              | The date of the invoice's issue – not necessarily the date the products or services were provided.
 `currency`              | string            | Three-letter [ISO currency code](https://en.wikipedia.org/wiki/ISO_4217), in uppercase. Defaults to the account's default currency.
 `contact`               | object            | The data of the [customer](#contacts) who will be billed.
