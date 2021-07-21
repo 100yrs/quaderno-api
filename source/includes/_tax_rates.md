@@ -258,6 +258,6 @@ Parameter               | Type      | Description
 `amount`                | decimal   | The transaction's amount. 
 `tax_code`              | string    | The transaction's [tax code](#tax-codes). Defaults to the account's default tax code. 
 `tax_behavior`          | string    | Specifies whether the price is considered inclusive of taxes or exclusive of taxes. Can be `inclusive` or `exclusive`. Defaults to `exclusive`. 
-`product_type`          | string    | Specifies whether the product is a good or a service. Can be `good` or `service`. Defaults to `service`. 
+`product_type`          | string    | Specifies whether the product is a good or a service. Can be `good` or `service`. Defaults to the account's default. Read this [guide](https://support.quaderno.io/adding-your-preferences) to change it.
 `date`                  | string    | The transaction's date. Defaults to today.
 `currency`              | string    | The transaction's currency. Three-letter [ISO currency code](https://en.wikipedia.org/wiki/ISO_4217), in uppercase. Defauts to the account's default currency.
