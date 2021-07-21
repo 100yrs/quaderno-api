@@ -164,12 +164,6 @@ To override this value you can pass the version in the `Accept` HTTP header like
 
 Exceptionally, we release versions that break backwards compatibility, to take full advantage of new features or to make the API faster for you. In these rare cases, we give a transition period in which you will be able to select which API version to use. After the deprecation date, the old API versions will not be available. These are the cases for versions <strong>20210316</strong> and <strong>20210701</strong>.
 
-<aside class="info">
-  The current version is <strong>20210316</strong>, which contains breaking changes to pagination and deprecates the legacy Taxes API. It's currently into transitioning time and backwards compatibility will be disabled on 1 July.
-
-  Also on 1 July version <strong>20210701</strong> will be released, which contains breaking changes to the Invoice API. Please refer to the following guides on safely upgrading API versions </a> and the <a href='#changelog'>changelog</a> for details.
-</aside>
-
 ### Safely upgrading to API version 20210701
 
 In our goal to make Quaderno compliant with tax rules worldwide, we're going to limit the edition of invoices and credit notes via API as of 1 July.
