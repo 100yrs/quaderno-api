@@ -11,7 +11,7 @@ curl https://ACCOUNT_NAME.quadernoapp.com/api/reporting/requests \
   -u YOUR_API_KEY:x \
   -d report_type="tax_summary" \
   -d parameters[from_date]="2021-01-01" \
-  -d parameters[from_date]="2021-01-31"
+  -d parameters[to_date]="2021-01-31"
 ```
 > The above command returns JSON structured like this:
 
